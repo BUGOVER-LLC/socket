@@ -1,0 +1,32 @@
+{
+  "name": "vendor_name/socket",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "type": "service-package",
+  "authors": [
+    {
+      "name": "artak",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "beyondcode/laravel-websockets": "^1.0.0",
+    "pusher/pusher-php-server": "^7.0.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Service\\Socket\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Service\\Socket\\Provider\\ManagerProvider"
+      ]
+    }
+  }
+}
