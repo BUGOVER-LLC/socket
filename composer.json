@@ -1,5 +1,6 @@
 {
   "name": "nucleus/socket",
+  "version": "0.2.1",
   "description": "description",
   "minimum-stability": "stable",
   "license": "proprietary",
@@ -19,13 +20,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Service\\Socket\\": "src/"
+      "Nucleus\\Socket\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Service\\Socket\\Provider\\ManagerProvider"
+        "Nucleus\\Socket\\Provider\\ManagerProvider"
       ]
     }
   }

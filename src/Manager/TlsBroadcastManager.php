@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Service\Socket\Manager;
+namespace Nucleus\Socket\Manager;
 
 use Illuminate\Broadcasting\Broadcasters\PusherBroadcaster;
 use Illuminate\Broadcasting\BroadcastManager as BaseBroadcastManager;
@@ -10,7 +10,7 @@ use Illuminate\Contracts\Broadcasting\Broadcaster;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Psr\Log\LoggerInterface;
 use Pusher\PusherException;
-use Src\Core\Additional\Guzzle;
+use Nucleus\Core\Additional\Guzzle;
 
 /**
  * Register new pusher instance without curl verify

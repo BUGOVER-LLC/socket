@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Service\Socket\Commands;
+namespace Nucleus\Socket\Commands;
 
 use BeyondCode\LaravelWebSockets\Console\StartWebSocketServer;
 use BeyondCode\LaravelWebSockets\Server\Logger\ConnectionLogger;

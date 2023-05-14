@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Service\Socket\Messages;
+namespace Nucleus\Socket\Messages;
 
 use BeyondCode\LaravelWebSockets\WebSockets\Channels\ChannelManager;
 use BeyondCode\LaravelWebSockets\WebSockets\Messages\PusherMessage;
@@ -13,7 +13,7 @@ use Ratchet\RFC6455\Messaging\MessageInterface;
 
 /**
  * Class MessageFactory
- * @package Src\Socket
+ * @package Nucleus\Socket
  */
 class MessageFactory
 {

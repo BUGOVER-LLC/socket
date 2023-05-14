@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Service\Socket\Channels;
+namespace Nucleus\Socket\Channels;
 
 use BeyondCode\LaravelWebSockets\WebSockets\Channels\PrivateChannel;
 use BeyondCode\LaravelWebSockets\WebSockets\Exceptions\InvalidSignature;

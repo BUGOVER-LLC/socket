@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Service\Socket\Provider;
+namespace Nucleus\Socket\Provider;
 
 use BeyondCode\LaravelWebSockets\Apps\App;
 use BeyondCode\LaravelWebSockets\Apps\AppProvider as BaseAppProvider;

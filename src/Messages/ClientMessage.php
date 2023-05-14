@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Service\Socket\Messages;
+namespace Nucleus\Socket\Messages;
 
 use BeyondCode\LaravelWebSockets\Dashboard\DashboardLogger;
 use BeyondCode\LaravelWebSockets\WebSockets\Channels\ChannelManager;
@@ -11,12 +11,12 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use JsonException;
 use Ratchet\ConnectionInterface;
-use Service\Socket\Provider\MessageProvider;
+use Nucleus\Socket\Provider\MessageProvider;
 use stdClass;
 
 /**
  * Class ClientMessage
- * @package Src\Socket\Messages
+ * @package Nucleus\Socket\Messages
  */
 class ClientMessage implements PusherMessage
 {

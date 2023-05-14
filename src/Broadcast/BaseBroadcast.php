@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Service\Socket\Broadcast;
+namespace Nucleus\Socket\Broadcast;
 
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\InputBag;
 
 /**
  * Class BaseBroadcast
- * @package Service\Socket
+ * @package Nucleus\Socket
  */
 class BaseBroadcast
 {

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Service\Socket\Provider;
+namespace Nucleus\Socket\Provider;
 
 use Illuminate\Database\Eloquent\Model;
-use Service\Socket\Commands\Tcp;
-use Src\Core\Enums\ConstQueue;
+use Nucleus\Socket\Commands\Tcp;
+use Nucleus\Core\Enums\ConstQueue;
 
 /**
  * Class MessageProvider
- * @package Service\Socket\Messages
+ * @package Nucleus\Socket\Messages
  */
 class MessageProvider
 {

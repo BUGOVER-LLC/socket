@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Service\Socket\Commands;
+namespace Nucleus\Socket\Commands;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -13,7 +13,7 @@ use Illuminate\Queue\SerializesModels;
 
 /**
  * Class Tcp
- * @package Src\Jobs
+ * @package Nucleus\Jobs
  */
 class Tcp implements ShouldQueue
 {

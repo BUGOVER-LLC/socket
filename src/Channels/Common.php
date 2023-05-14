@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Service\Socket\Channels;
+namespace Nucleus\Socket\Channels;
 
 use BeyondCode\LaravelWebSockets\Dashboard\DashboardLogger;
 use BeyondCode\LaravelWebSockets\WebSockets\Channels\Channel;
 use JsonException;
 use Ratchet\ConnectionInterface;
-use Service\Socket\Events\Subscribed;
-use Service\Socket\Events\Unsubscribed;
+use Nucleus\Socket\Events\Subscribed;
+use Nucleus\Socket\Events\Unsubscribed;
 use stdClass;
 
 class Common extends Channel

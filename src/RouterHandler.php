@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Service\Socket;
+namespace Nucleus\Socket;
 
 use BeyondCode\LaravelWebSockets\Apps\App;
 use BeyondCode\LaravelWebSockets\Dashboard\DashboardLogger;
@@ -17,14 +17,14 @@ use JsonException;
 use Ratchet\ConnectionInterface;
 use Ratchet\RFC6455\Messaging\MessageInterface;
 use Ratchet\WebSocket\MessageComponentInterface;
-use Service\Socket\Events\Closed;
-use Service\Socket\Events\Connected;
-use Service\Socket\Events\Received;
-use Service\Socket\Messages\MessageFactory;
+use Nucleus\Socket\Events\Closed;
+use Nucleus\Socket\Events\Connected;
+use Nucleus\Socket\Events\Received;
+use Nucleus\Socket\Messages\MessageFactory;
 
 /**
  * Class RouterHandler
- * @package Src\Socket
+ * @package Nucleus\Socket
  */
 class RouterHandler implements MessageComponentInterface
 {

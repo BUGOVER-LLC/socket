@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Service\Socket\Provider;
+namespace Nucleus\Socket\Provider;
 
 use Illuminate\Broadcasting\BroadcastManager;
 use Illuminate\Broadcasting\BroadcastServiceProvider as BaseBroadcastProvider;
 use Illuminate\Contracts\Broadcasting\Broadcaster as BroadcasterContract;
 use Illuminate\Contracts\Broadcasting\Factory as BroadcastingFactory;
-use Service\Socket\Manager\TlsBroadcastManager;
+use Nucleus\Socket\Manager\TlsBroadcastManager;
 
 class ManagerProvider extends BaseBroadcastProvider
 {

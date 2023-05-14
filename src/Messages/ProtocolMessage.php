@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Service\Socket\Messages;
+namespace Nucleus\Socket\Messages;
 
 use BeyondCode\LaravelWebSockets\WebSockets\Messages\PusherChannelProtocolMessage;
 use JsonException;
 use Ratchet\ConnectionInterface;
-use Service\Socket\Events\Ponged;
+use Nucleus\Socket\Events\Ponged;
 
 class ProtocolMessage extends PusherChannelProtocolMessage
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Service\Socket\Manager;
+namespace Nucleus\Socket\Manager;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -14,7 +14,7 @@ use Pusher\ApiErrorException;
 use Pusher\Pusher;
 use Pusher\PusherCrypto;
 use Pusher\PusherException;
-use Src\Core\Additional\Guzzle;
+use Nucleus\Core\Additional\Guzzle;
 
 class PusherInstance extends Pusher
 {
