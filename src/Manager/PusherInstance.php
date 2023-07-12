@@ -14,7 +14,6 @@ use Pusher\ApiErrorException;
 use Pusher\Pusher;
 use Pusher\PusherCrypto;
 use Pusher\PusherException;
-use Src\Core\Additional\GuzzlePusherInstance;
 
 class PusherInstance extends Pusher
 {

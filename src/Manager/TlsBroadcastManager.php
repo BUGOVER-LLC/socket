@@ -10,7 +10,6 @@ use Illuminate\Contracts\Broadcasting\Broadcaster;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Psr\Log\LoggerInterface;
 use Pusher\PusherException;
-use Src\Core\Additional\GuzzlePusherInstance;
 
 /**
  * Register new pusher instance without curl verify

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Src\Core\Additional;
+namespace Nucleus\Socket\Manager;
 
 use GuzzleHttp\Client;
 
