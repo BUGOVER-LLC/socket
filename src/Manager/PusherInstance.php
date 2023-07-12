@@ -14,7 +14,7 @@ use Pusher\ApiErrorException;
 use Pusher\Pusher;
 use Pusher\PusherCrypto;
 use Pusher\PusherException;
-use Nucleus\Core\Additional\Guzzle;
+use Src\Core\Additional\GuzzlePusherInstance;
 
 class PusherInstance extends Pusher
 {
@@ -58,7 +58,7 @@ class PusherInstance extends Pusher
         if (null !== $client) {
             $this->client = $client;
         } else {
-            $this->client = new Guzzle();
+            $this->client = new GuzzlePusherInstance();
         }
 
         $use_tls = true;

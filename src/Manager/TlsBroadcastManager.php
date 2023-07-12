@@ -10,7 +10,7 @@ use Illuminate\Contracts\Broadcasting\Broadcaster;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Psr\Log\LoggerInterface;
 use Pusher\PusherException;
-use Nucleus\Core\Additional\Guzzle;
+use Src\Core\Additional\GuzzlePusherInstance;
 
 /**
  * Register new pusher instance without curl verify
@@ -32,7 +32,7 @@ class TlsBroadcastManager extends BaseBroadcastManager
             config('broadcasting.connections.pusher.secret'),
             config('broadcasting.connections.pusher.app_id'),
             config('broadcasting.connections.pusher.options') ?? [],
-            new Guzzle() ?? null
+            new GuzzlePusherInstance() ?? null
         );
 
         if ($config['log'] ?? false) {
